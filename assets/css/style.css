@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.headNav {
+    position: absolute; 
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding-left: 80rem;
+
+    & > .button {
+        color: rgb(255, 231, 231);
+        display: flex;
+        padding: 2rem;
+        
+        &:hover {
+            background: rgba(0, 225, 255, 0.199);
+            border-radius: 50px;
+            
+        }
+    }
+    
+}
+
+.middleInfo {
+    display: flex;
+    gap: 1.2rem;
+
+    z-index: 1;
+    background: linear-gradient(
+        200deg,
+        rgb(5, 4, 2) 5%,
+        rgba(255, 255, 255, 0) 60%);
+
+    & > .lpbg {
+        position: relative;
+        object-fit: cover;
+        height: 100vh;
+        z-index: -1;
+        
+        & > .bg{
+            position: relative;
+        object-fit: cover;
+        height: 100vh;
+        width: 100vw;
+        z-index: -1;
+        }
+    }
+
+
+        
+
+       
+    
+
+
+    & > .infor {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        padding-top: 15rem;
+        padding-left: 70rem;
+        gap: 1.2rem;
+        font-size: 90px;
+        color: rgb(253, 247, 237);
+
+    }
+}
+
+.pt {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: blanchedalmond;
+    padding: 5rem;
+    
+
+    & > .title {
+        display: flex;
+        font-size: 50px;
+        gap: 2rem;
+        color: rgb(26, 51, 43);
+    }
+
+    & > .description {
+        display: flex;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        font-size: 20px;
+        color: rgb(26, 51, 43);
+    }
+}
+
+.trnds {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(
+        100deg,
+        rgb(5, 4, 2) 5%,
+        rgba(255, 255, 255, 0) 60%);
+
+    & > .lpbg {
+        position: absolute;
+        object-fit: cover;
+        height: 100vh;
+        z-index: -1;
+        
+        
+        & > .bg{
+            position: relative;
+        object-fit: cover;
+        height: 100vh;
+        width: 100vw;
+        z-index: -1;
+        }
+}
+
+& > .infor {
+    display: flex;
+flex-direction: column;
+position: absolute;
+padding-top: 15rem;
+padding-right: 70rem;
+padding-left: 10rem;
+gap: 1.2rem;
+font-size: 30px;
+color: rgb(253, 247, 237);
+
+& > .button {
+    border: 2px solid white;
+    width: 13rem;
+    padding: 1rem;
+    background-color: white;
+    color: rgb(78, 38, 0);
+}
+}
+}
+
+.f4 {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: antiquewhite;
+    padding: 10rem;
+
+    & > .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+
+        & > .subt {
+            display: flex;
+            font-size: 25px;
+            gap: 2rem;
+        }
+    }
+
+    .lappycontainer {
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(254, 255, 248);
+        padding: 5rem;
+        justify-content: center ;
+        align-items: center;
+        gap: 5rem;
+        background-color: antiquewhite;
+        
+        .imageLappy {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            border: 2px solid rgb(88, 54, 2);
+            height: 370px;
+            
+            & > .lappyImg {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items:center ;
+                width: 350px;
+                height: 320px;
+                padding: 0.2rem;
+
+               
+                
+            }
+
+            & > .descript {
+                display: flex;
+                position: absolute;
+                flex-direction: column;
+                padding: 20.5rem;
+                font-size: 30px;
+                
+                
+            }
+    
+        }
+
+        
+    }
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: black;
+    gap: 0.5rem;
+
+    & > .lpbg {
+        display: flex;
+         & > .bg {
+            height: 10vh;
+            padding: 0.5rem;
+         }
+    }
+
+    & > .icons {
+        display: flex;
+        gap: 2rem;
+        height: 30px;
+        color: aliceblue;
+    }
+
+    & > .navigation {
+        display: flex;
+        gap: 3rem;
+        height: 30px;
+        & > .navigation-content {
+            color: aliceblue;
+        }
+    }
+
+    & > .disclaimer {
+        color: aliceblue;
+    }
+}
